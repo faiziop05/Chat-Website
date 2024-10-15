@@ -1,0 +1,121 @@
+.LoginContianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LoginHeadingText {
+  margin-bottom: 20vh;
+  margin-top: 10vh;
+}
+.LoginRightContainer {
+  background: linear-gradient(
+    to left top,
+    blueviolet,
+    rgb(37, 0, 245),
+    blueviolet,
+    rgb(16, 0, 245),
+    blueviolet
+  );
+  width: 60%;
+  /* height: 100vh; */
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40vh;
+}
+.LoginRightContainer h2 {
+  color: white;
+  text-align: center;
+}
+.LoginRightContainer p {
+  color: white;
+  text-align: center;
+}
+
+.LoginLeftConatiner {
+  background-color: white;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginSignUpLabelInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.LoginSignUpLabelInputWrapper input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(229, 237, 255);
+  outline: 0;
+  border: 0;
+  font-size: 16px;
+  padding-inline: 20px;
+}
+.LoginSignUpLabelInputWrapper input:hover {
+  translate: -2px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.LoginSignUpBtn {
+  width: 440px;
+  height: 40px;
+  padding-inline: 20px;
+  border-radius: 50px;
+  border: 0;
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.LoginSignUpBtn:hover {
+  translate: -2px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+.DontHaveOrHaveAccountBtnWraper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.DontHaveOrHaveAccountBtnWraper button {
+  border: 0;
+  background-color: rgba(240, 248, 255, 0);
+  color: blueviolet;
+  text-decoration: underline;
+  padding: 0;
+  margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .LoginContianer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .LoginRightContainer {
+      display: none;
+    }
+    
+  }
+@media screen and (max-width: 768px) {
+    .LoginSignUpLabelInputWrapper input {
+        width: 280px;
+        height: 40px;
+      }
+      .LoginSignUpBtn {
+        width: 320px;
+        height: 40px;
+      }
+  }

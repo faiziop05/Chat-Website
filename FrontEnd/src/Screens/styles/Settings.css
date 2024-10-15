@@ -1,0 +1,55 @@
+.SettingsBottumContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  padding: 100px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.137);
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.ProfileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 166, 0);
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.ChangeImage {
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: rgb(32, 145, 236);
+  color: white;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+.UploadImage {
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+.ChangeImage:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
+  background-color: rgb(18, 110, 185);
+}
+.UploadImage:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+  background-color: rgb(111, 31, 185);
+
+}
